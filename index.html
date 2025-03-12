@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="Logo/Icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>BOHO</title>
+</head>
+<body>
+    <header>
+        <img src="Logo/Logo_1.png" alt="boho icon" id="logo">
+    </header>
+
+    <div class="img-slider">
+        <div class="slides">
+            <img src="Banners/1.png" class="imgs">
+            <img src="Banners/2.png" class="imgs">
+            <img src="Banners/3.png" class="imgs">
+            <img src="Banners/4.png" class="imgs">
+        </div>
+        <div class="navigate">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <th><img src="Banners/8.png" alt="" class="img1"></th>
+                <th rowspan="2"><img src="Banners/7.png" alt="" class="img1"></th>
+            </tr>
+            <tr>
+                <th><img src="Banners/9.png" alt="" class="img1"></th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="clothes">
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-9')">
+            <img src="Clothes/9/1.jpeg" alt="clothes" id="clothes">
+            <p><b>Boho Chich Maxi 🕊️</b><br>
+            LKR 3400 Only<br>
+            S | M | L | XL</p>
+        </div>
+
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-10')">
+            <img src="Clothes/10/1.jpeg" alt="clothes" id="clothes">
+            <p><b>Olive Elegance 🍃</b><br>
+            LKR 3400 Only<br>
+            S | M | L | XL</p>
+        </div>
+
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-8')">
+            <img src="Clothes/8/1.png" alt="clothes" id="clothes">
+            <p><b>Black Breeze 🖤</b><br>
+            LKR 3900 Only<br>
+            S | M | L | XL</p>
+        </div>
+
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-7')">
+            <img src="Clothes/7/1.png" alt="clothes" id="clothes">
+            <p><b>Blue Blossoms 🫐</b><br>
+            LKR 4200 Only<br>
+            S | M | L | XL</p>
+        </div>
+
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-6')">
+            <img src="Clothes/6/1.png" alt="clothes" id="clothes">
+            <p><b>Light pink short dress 🌸</b><br>
+            LKR 2100 Only<br>
+            S | M | L | XL</p>
+        </div>
+
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-5')">
+            <img src="Clothes/5/1.png" alt="clothes" id="clothes">
+            <p><b>Light blue short dress 🐬</b><br>
+            LKR 2800 Only<br>
+            S | M | L | XL</p>
+        </div>
+
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-4')">
+            <img src="Clothes/4/1.png" alt="clothes" id="clothes">
+            <p><b>Pink printed midi dress 🌸</b><br>
+            LKR 3400 Only<br>
+            S | M | L | XL</p>
+        </div>
+
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-3')">
+            <img src="Clothes/3/1.png" alt="clothes" id="clothes">
+            <p><b>Leopard loose mini dress 🐾</b><br>
+            LKR 2800 Only<br>
+            S | M | L | XL</p>
+        </div>
+
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-2')">
+            <img src="Clothes/2/1.jpeg" alt="clothes" id="clothes">
+            <p><b>Blue printed midi dress 🦋</b><br>
+            LKR 3400 Only<br>
+            S | M | L | XL</p>
+        </div>
+
+        <div class="clothes-column" onclick="ClosePopupOne('clothes-1')">
+            <img src="Clothes/1/1.png" alt="clothes" id="clothes">
+            <p><b>Light pink long dress 🌸</b><br>
+            LKR 3400 Only<br>
+            S | M | L | XL</p>
+        </div>
+    </div>
+
+    <!--popups-->
+    <div class="popup" id="size-chart">
+        <img src="Banners/SizeChart.jpg" id="main-content">
+        <button onclick="ClosePopupOne('size-chart')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="about-us">
+        <div id="main-content">
+            <h2>About Us</h2>
+            <p>Welcome to <b>Boho</b>, your go-to online boutique for stylish and trendy women's fashion. Founded by <b>Sadini Sanjani</b>, Boho is all about celebrating individuality, confidence, and effortless style.
+            <br><br>We believe fashion should be accessible, comfortable, and expressive—just like you! That's why we handpick every piece with love, bringing you the latest designs that blend modern trends with a touch of bohemian charm. Whether you're looking for everyday essentials, chic statement pieces, or casual elegance, Boho has something special for every woman.
+            <br><br>Currently, we operate exclusively on social media, making it easier than ever to shop your favorite styles from the comfort of your home. Stay connected with us on <a href="https://www.instagram.com/boho_lk/" target="_blank">Instagram</a>, <a href="https://www.tiktok.com/@boho_lk" target="_blank">TikTok</a> and <a href="https://www.facebook.com/profile.php?id=61566304432593" target="_blank">Facebook</a> to explore our latest collections, special offers, and styling inspiration.
+            <br><br>Thank you for being part of the Boho family. Your support means the world to us! 💛
+            </p>
+        </div>
+        <button onclick="ClosePopupOne('about-us')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="delivery-pollicy">
+        <div id="main-content">
+            <h2>Delivery Policy</h2>
+            <p>At Boho, we ensure a smooth and hassle-free shopping experience with reliable delivery across Sri Lanka.</p>
+            <h3>Delivery Options</h3>
+            <p>Island-wide Delivery: We deliver to all locations across Sri Lanka.
+            <br>Cash on Delivery (COD): Pay when your order arrives at your doorstep.
+            <br>Online Payment: You can also pay the total amount in advance via online banking.</p>
+            <h3>Delivery Timeframe</h3>
+            <p>Orders are typically processed within 1-2 business days.
+            <br>Delivery time varies depending on your location but generally takes 3-5 business days.
+            <br>For urgent deliveries, feel free to reach out to us via DM.</p>
+            <h3>Delivery Charges</h3>
+            <p>Delivery fees may vary based on location and will be informed at checkout.</p>
+        </div>
+        <button onclick="ClosePopupOne('delivery-pollicy')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-1">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(0, 'dress-1', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/1/1.png" class="display-img" id="dress-1">
+            <button class="control-btn" onclick="ChangeDress(0, 'dress-1', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Light pink long dress 🌸</h2>
+                <p><b>LKR 3400 Only</b><br>
+                S | M | L | XL</p><br>
+                <span class="sold">SOLD OUT</span><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-1')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-2">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(1, 'dress-2', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/2/1.jpeg" class="display-img" id="dress-2">
+            <button class="control-btn" onclick="ChangeDress(1, 'dress-2', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Blue printed midi dress 🦋</h2>
+                <p><b>LKR 3400 Only</b><br>
+                S | M | L | XL</p><br>
+                <span class="sold">SOLD OUT</span><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-2')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-3">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(2, 'dress-3', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/3/1.jpeg" class="display-img" id="dress-3">
+            <button class="control-btn" onclick="ChangeDress(2, 'dress-3', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Leopard loose mini dress 🐾</h2>
+                <p><b>LKR 2800 Only</b><br>
+                S | M | L | XL</p><br>
+                <span class="sold">SOLD OUT</span><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-3')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-4">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(3, 'dress-4', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/4/1.jpeg" class="display-img" id="dress-4">
+            <button class="control-btn" onclick="ChangeDress(3, 'dress-4', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Pink printed midi dress 🌸</h2>
+                <p><b>LKR 3400 Only</b><br>
+                S | M | L | XL</p><br>
+                <span class="sold">SOLD OUT</span><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-4')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-5">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(4, 'dress-5', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/5/1.jpeg" class="display-img" id="dress-5">
+            <button class="control-btn" onclick="ChangeDress(4, 'dress-5', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Light blue short dress 🐬</h2>
+                <p><b>LKR 2800 Only</b><br>
+                S | M | L | XL</p><br>
+                <span class="sold">SOLD OUT</span><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-5')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-6">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(5, 'dress-6', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/6/1.jpeg" class="display-img" id="dress-6">
+            <button class="control-btn" onclick="ChangeDress(5, 'dress-6', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Light pink short dress 🌸</h2>
+                <p><b>LKR 2100 Only</b><br>
+                S | M | L | XL</p><br>
+                <span class="sold">SOLD OUT</span><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-6')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-7">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(6, 'dress-7', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/7/1.jpeg" class="display-img" id="dress-7">
+            <button class="control-btn" onclick="ChangeDress(6, 'dress-7', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Blue Blossoms 🫐</h2>
+                <p><b>LKR 4200 Only</b><br>
+                S | M | L | XL</p><br>
+                <span class="sold">SOLD OUT</span><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-7')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-8">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(7, 'dress-8', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/8/1.jpeg" class="display-img" id="dress-8">
+            <button class="control-btn" onclick="ChangeDress(7, 'dress-8', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Black Breeze 🖤</h2>
+                <p><b>LKR 3900 Only</b><br>
+                S | M | L | XL</p><br>
+                <span class="sold">SOLD OUT</span><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-8')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-9">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(8, 'dress-9', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/9/1.jpeg" class="display-img" id="dress-9">
+            <button class="control-btn" onclick="ChangeDress(8, 'dress-9', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Boho Chich Maxi 🕊️</h2>
+                <p><b>LKR 3400 Only</b><br>
+                S | M | L | XL</p><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-9')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+    <div class="popup" id="clothes-10">
+        <div class="content">
+            <button class="control-btn" onclick="ChangeDress(9, 'dress-10', 0)"><i class="fas fa-chevron-left"></i></button>
+            <img src="Clothes/10/1.jpeg" class="display-img" id="dress-10">
+            <button class="control-btn" onclick="ChangeDress(9, 'dress-10', 1)"><i class="fas fa-chevron-right"></i></button>
+
+            <div class="details">
+                <h2>Olive Elegance 🍃</h2>
+                <p><b>LKR 3400 Only</b><br>
+                S | M | L | XL</p><br><br><br>
+                <a href="https://wa.me/94761440308" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+        <button onclick="ClosePopupOne('clothes-10')" class="control-btn close-btn"><i class="fas fa-xmark"></i></button>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-column">
+                <img src="Logo/Logo.png" alt="boho icon" id="logo_foot">
+            </div>
+
+			<div class="footer-column">
+			    <h3>INFORMATION</h3>
+			    <ul>
+			     	<li><a onclick="ClosePopupOne('about-us')">About Us</a></li>
+			      	<li><a onclick="ClosePopupOne('delivery-pollicy')">Delivery Policy</a></li>
+                      <li><a onclick="ClosePopupOne('size-chart')">Size Chart</a></li>
+			    </ul>
+			</div>
+
+            <div class="footer-column">
+			    <h3>CONTACT US</h3>
+			    <ul id="links">
+                    <li><a href="https://www.instagram.com/boho_lk/" target="_blank" title="Visit us on Instagram">
+                        <i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li><a href="https://www.tiktok.com/@boho_lk" target="_blank" title="Visit us on TikTok">
+                        <i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61566304432593" target="_blank" title="Visit us on Facebook">
+                        <i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                </ul>
+			</div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
