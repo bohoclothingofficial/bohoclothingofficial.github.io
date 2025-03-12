@@ -290,8 +290,4 @@ button:hover {
     .clothes-column {
         width: calc(50% - 30px);
     }
-
-    .display-img {
-        width: 50%;
-    }
 }
