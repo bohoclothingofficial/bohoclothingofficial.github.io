@@ -246,7 +246,8 @@ button:hover {
 
 #main-content {
     width: 80%;
-    height: auto;
+    height: 100%;
+	overflow-y: auto;
     margin-left: 10%;
     margin-bottom: 20px;
 }
