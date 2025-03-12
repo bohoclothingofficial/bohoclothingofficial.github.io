@@ -45,17 +45,17 @@ function ClosePopupOne(id)
 }
 
 let dresses = [
-    ["Clothes/1/1.png", "Clothes/1/2.png", "Clothes/1/3.png"],
-    ["Clothes/2/1.jpeg", "Clothes/2/2.jpeg", "Clothes/2/3.jpeg"],
-    ["Clothes/3/1.png", "Clothes/3/2.png", "Clothes/3/3.png"],
-    ["Clothes/4/1.png", "Clothes/4/2.png", "Clothes/4/3.png"],
-    [ "Clothes/5/1.png", "Clothes/5/2.png", "Clothes/5/3.png"],
-    ["Clothes/6/1.png", "Clothes/6/2.png", "Clothes/6/3.png"],
-    ["Clothes/7/1.png", "Clothes/7/2.png", "Clothes/7/3.png"],
-    ["Clothes/8/1.png", "Clothes/8/2.png", "Clothes/8/3.png"],
-    ["Clothes/9/1.jpeg", "Clothes/9/2.jpeg", "Clothes/9/3.jpeg", "Clothes/9/4.jpeg", "Clothes/9/5.jpeg"],
-    ["Clothes/10/1.jpeg", "Clothes/10/2.jpeg", "Clothes/10/3.jpeg", "Clothes/10/4.jpeg"],
-    ["Clothes/11/1.jpeg", "Clothes/11/2.jpeg", "Clothes/11/3.jpeg"]
+    ["1/1.png", "1/2.png", "1/3.png"],
+    ["2/1.jpeg", "2/2.jpeg", "2/3.jpeg"],
+    ["3/1.png", "3/2.png", "3/3.png"],
+    ["4/1.png", "4/2.png", "4/3.png"],
+    [ "5/1.png", "5/2.png", "5/3.png"],
+    ["6/1.png", "6/2.png", "6/3.png"],
+    ["7/1.png", "7/2.png", "7/3.png"],
+    ["8/1.png", "8/2.png", "8/3.png"],
+    ["9/1.jpeg", "9/2.jpeg", "9/3.jpeg", "9/4.jpeg", "9/5.jpeg"],
+    ["10/1.jpeg", "10/2.jpeg", "10/3.jpeg", "10/4.jpeg"],
+    ["11/1.jpeg", "11/2.jpeg", "11/3.jpeg"]
 ]
 let current = 0;
 
