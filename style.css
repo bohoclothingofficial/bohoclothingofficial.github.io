@@ -292,7 +292,6 @@ button:hover {
     }
 
     .display-img {
-        height: 150px;
-        width: auto;
+        width: 60%;
     }
 }
