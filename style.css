@@ -181,11 +181,12 @@ footer {
 
 .clothes-column {
     cursor: pointer;
+	width: calc(25% - 30px);
     padding: 5px;
     margin: 10px;
     font-size: 100%;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0;	
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
 }
@@ -193,12 +194,6 @@ footer {
 @media (max-width: 750px) {
     .clothes-column {
         width: calc(50% - 30px);
-    }
-}
-
-@media (max-width: 1024px) {
-    .clothes-column {
-        width: calc(25% - 30px);
     }
 }
 
